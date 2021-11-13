@@ -36,7 +36,7 @@ app.UseCors(options => options
 // custom jwt auth middleware
 app.UseMiddleware<JwtMiddleware>();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
